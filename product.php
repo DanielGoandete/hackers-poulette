@@ -18,13 +18,13 @@
     <div class="container-md">
         <div class="row">
           <div class="col-sm" style="width: 300px;"> <img style="width: 270px;" src="assets/product1.jpg" alt="product">
-              <a href="error.php"><button  style="margin-left:30%;" class="btn btn-primary"  name="buy">more info...</button></a>
+              <a href="error.php"><button  style="margin-left:25%;" class="btn btn-primary"  name="buy">more info...</button></a>
           </div>
           <div class="col-sm" style="width: 300px;"><img style="width: 270px;" src="assets/product2.jpg" alt="product">
-          <a href="error.php"><button  style="margin-left:30%;" class="btn btn-primary"  name="buy">more info...</button></a>
+          <a href="error.php"><button  style="margin-left:25%;" class="btn btn-primary"  name="buy">more info...</button></a>
           </div>
           <div class="col-sm" style="width: 300px;"><img style="width: 270px;" src="assets/product3.jpg" alt="product">
-          <a href="error.php"><button  style="margin-left:30%;" class="btn btn-primary"  name="buy">more info...</button></a>
+          <a href="error.php"><button  style="margin-left:25%;" class="btn btn-primary"  name="buy">more info...</button></a>
           </div>
         </div>
      </div> 
