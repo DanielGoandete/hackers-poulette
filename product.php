@@ -21,10 +21,12 @@
              <br></br>
               <a href="error.php"><button  style="margin-left:23%;" class="btn btn-primary"  name="buy">more info...</button></a>
           </div>
+          <br></br>
           <div class="col-sm" style="width: 300px;"><img style="width: 270px;" src="assets/product2.jpg" alt="product">
           <br></br>
           <a href="error.php"><button  style="margin-left:23%;" class="btn btn-primary"  name="buy">more info...</button></a>
           </div>
+          <br></br>
           <div class="col-sm" style="width: 300px;"><img style="width: 270px;" src="assets/product3.jpg" alt="product">
           <br></br>
           <a href="error.php"><button  style="margin-left:23%;" class="btn btn-primary"  name="buy">more info...</button></a>
