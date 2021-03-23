@@ -16,7 +16,7 @@
     </header> 
   <div class="container-md">
      <div class="row justify-content-center">
-     <img style="width: 350px;" src="assets/acessories.jpg" alt="acessories">
+     <img style="width: 350px;height:200px" src="assets/acessories.jpg" alt="acessories">
          <h1 style="color: #FFF;text-align: center;">Welcome to Hacker Poulette </h1>
          <h4 style="color: #FFF;">Hi there!
          Hacker Poulette aims to provide list of the best tools and gear—such as multimeters,
