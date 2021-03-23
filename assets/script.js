@@ -12,7 +12,7 @@ function validateEmail(email) {
     if (validateEmail(email)) {
         document.getElementById('result').innerHTML = "";
     } else {
-        document.getElementById('result').innerHTML = "<spam style='color:red'>"+ email + 'is not valid'+ "</spam>";
+        document.getElementById('result').innerHTML = "<spam style='color:red'>"+ email + ' is not valid'+ "</spam>";
     }
     return false;
   }

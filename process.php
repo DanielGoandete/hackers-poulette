@@ -6,25 +6,17 @@ $lastname= '';
 $email = '';
 $country= '';
 $message= '';
-$id = 0;
-$male= '';
-$female= '';
-$subject1= '';
-$subject2= '';
-$subject3= '';
-        
+$gender='';
+$subject= '';    
 
-
+//function to debug
 function pre_r($array){
     echo '<pre>';
     print_r($array);
     echo '</pre>';
-   
-
 }
 
 
-        
 //form 
 if(isset($_POST['submit'])){
     $name = $_POST['name'];
@@ -35,25 +27,8 @@ if(isset($_POST['submit'])){
     $gender = $_POST['gender'];
     $subject = $_POST['subject'];
 
-    
-   
-
-        
-    //     $_SESSION['message'] = "Name need to be validate";
-    //     $_SESSION['msg_type'] = "danger";
-    
-    //      //send messge after save
-    // $_SESSION['message'] = "saved ok";
-    // $_SESSION['msg_type'] = "success";
-
- 
-    
-   
-   
-    //return to main page
-    //header("location: index.php");
+    //send to confirmation page
+    header("location: confirmation.php");
 }
-
-
 
 ?>

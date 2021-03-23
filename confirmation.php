@@ -10,21 +10,18 @@
 </head>
   
 
-<body style="background-color: #0d8187;">
+<body>
+<header>
     <header>
         <?php  include 'nav.php'; ?>
     </header> 
+        </header> 
   <div class="container-md">
      <div class="row justify-content-center">
-     <img style="width: 350px;" src="assets/acessories.jpg" alt="acessories">
-         <h1 style="color: #FFF;text-align: center;">Welcome to Hacker Poulette </h1>
-         <h4 style="color: #FFF;">Hi there!
-         Hacker Poulette aims to provide list of the best tools and gear—such as multimeters,
-          3D printers, electronics components, home automation devices, DIY tools—with great deals 
-          we find from across the web. Spot something wicked that you would like to share? 
-          <a href="contact.php">Submit here.</a></h4>
+         <h1 style="color: #0d8187;">We have received your email, thank you for your feedback! </h1>
+         <h2 style="color: #0d8187;">Soon our team will be in touch with you. </h2>
          <h7 >Team Hacker Poulette</h7>
-      </div> 
+      </div>
    </div> 
 </body>
 </html>
