@@ -24,33 +24,33 @@
         <form action="" method="POST">
             <div  style="width: 50%;height: 30%;position: relative;margin-left: auto;margin-right: auto;">
                 <div class="form-group mb-2"> 
-                    <label class="form-label">Name:</label>
-                    <input type="text" required maxlength="48"  oninput="this.value = this.value.replace(/[^a-zA-Z]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" 
+                    <label class="control-label" for="name">Name:</label>
+                    <input type="text" id="name" required maxlength="48"  oninput="this.value = this.value.replace(/[^a-zA-Z]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" 
                      name="name" class="form-control" value="<?php echo $name;?>" placeholder="Enter your Name"> 
                 </div>
                 <div class="form-group mb-2">
-                    <label class="form-label">Lastname:</label>
-                    <input type="text" required name="lastname" oninput="this.value = this.value.replace(/[^a-zA-Z]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
+                    <label class="control-label" for="lastname">Lastname:</label>
+                    <input type="text" id="lastname" required name="lastname" oninput="this.value = this.value.replace(/[^a-zA-Z]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
                      maxlength="48" class="form-control" value="<?php echo $lastname;?>" placeholder="Enter your Lastname">
                 </div>
                 <div class="form-group mb-2">
-                    <label class="form-label" for="gender">Gender:</label>
+                    <label class="control-label"  for="gender">Gender:</label>
                     <select class="form-select" name="gender" id="gender">
                         <option  value="Male">Male</option>
                         <option  value="Female">Female</option>
                     </select>
                 </div>
                 <div class="form-group mb-2">
-                    <label class="form-label">Email:</label><h5 id='result'></h5>
+                    <label class="control-label" for="email">Email:</label><h5 id='result'></h5>
                     <input type="text" name="email" id="email" onblur="validate()" required maxlength="48" class="form-control" value="<?php echo $email;?>" placeholder="Enter your email">
                 </div>
                 <div class="form-group mb-2">
-                    <label class="form-label">Country:</label>
-                    <input type="text" maxlength="48" oninput="this.value = this.value.replace(/[^a-zA-Z]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
+                    <label class="control-label" for="country">Country:</label>
+                    <input type="text" id="country" maxlength="48" oninput="this.value = this.value.replace(/[^a-zA-Z]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
                      required  name="name" class="form-control" value="<?php echo $country;?>" placeholder="Enter your Name">
                 </div>
                 <div class="form-group mb-2">
-                    <label class="form-label">Subject:</label>
+                    <label class="control-label" for="subject">Subject:</label>
                     <select class="form-select" name="subject" id="subject">
                         <option value="Other">Other</option>
                         <option value="Complain">Complain</option>
@@ -58,7 +58,7 @@
                     </select>
                    </div>
                 <div class="form-group mb-2">
-                    <label class="form-label" for="message">Enter you Message:</label>
+                    <label class="control-label" for="message">Enter you Message:</label>
                     <textarea class="form-control" required id="message" rows="3" value="<?php echo $message;?>"></textarea>
                 </div>
                 <div class="form-group mb-2">    
